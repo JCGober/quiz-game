@@ -1,29 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
     <head>
         <meta charset="UTF-08">
         <title>Quiz</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     </head>
 
-    <body>
 
-        <main>
+        <body>
 
-            <h1>Quiz Time!</h1>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Quiz</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="hi-scores.html">High Scores!</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
 
-            <button id="startButt">Start!</button>
+            <div class="center">
+        
+                <header>
+                    <h1 class = "welcome">Quiz Time!</h1>
+                </header>    
+           
+                <main>
 
+                    <button id="startButt">Start!</button>
+                    
+                </main>
 
-        </main>
+                <script src = "script.js"></script>
+            </div>
 
-
-
-
-
-        <script src = "script.js"></script>
-
-    </body>
+        </body>
 
 </html>
