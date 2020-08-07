@@ -32,3 +32,16 @@ body{
     position: fixed;
     z-index: 5;
 }
+
+.hidden{
+    display: none
+}
+
+#answers{
+    margin: 5px;
+}
+
+#questions{
+    font-size: larger;
+    font-weight: bold;
+}

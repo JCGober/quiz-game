@@ -4,7 +4,7 @@
 
     <head>
         <meta charset="UTF-08">
-        <title>Quiz</title>
+        <title>Book Quiz!</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     </head>
@@ -13,7 +13,7 @@
         <body>
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">Quiz</a>
+                <a class="navbar-brand" href="index.html">Book Quiz</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,12 +34,24 @@
                 <div class="container"><h1 class="displayTimer"></h1></div>
         
                 <header class = "head">
-                    <h1 class = "welcome">Quiz Time!</h1>
+                    <h1 class = "welcome">Book Quiz Time!</h1>
                 </header>    
            
                 <main>
                     <button id="startButt">Start!</button>
                 </main>
+
+                <div id="questions" class = "hidden">Question?</div>
+
+                <div id= "answers" class="hidden">
+
+                    <div id = "ans1"><button id = "ans1">Answer1</button></div>
+                    <div id = "ans2"><button id = "ans2" >Answer2</button></div>
+                    <div id = "ans3"><button id = "ans3">Answer3</button></div>
+                    <div id = "ans4"><button id = "ans4">Answer4</button></div>
+
+                </div>
+
 
                 <script src = "script.js"></script>
             </div>
